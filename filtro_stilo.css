@@ -1,0 +1,16 @@
+.total{display:block; margin:20px 130px 20px 130px ; width: 1000px; height:655px;
+ background-image: linear-gradient(black, orange); border-radius: 25px; padding: 20px 100px 0px 100px;}
+#titulo1{font-size: 25px; border: red 5px inset; width: 210px;
+padding: 10px; text-align: center; margin:30px 0px 20px 130px;background-image: linear-gradient(white,red); font-family: impact ;}
+#titulo2{font-size: 25px; border: red 5px inset; width: 210px;
+padding: 10px; text-align: center; margin:-190px 0px 0px 630px;background-image: linear-gradient(white,red); font-family: impact ;}
+#imagenhole1{width: 300px; height: 200px; margin:50px 0px -150px 100px; border: red 5px inset;}
+#display{width: 300px; height: 200px; margin:70px 0px 0px 600px; border: red 5px inset;}
+.modulador{ border: red 5px inset; background-image: linear-gradient(darkred, red);
+  width: 250px; height:150px; margin: 50px 0px 0px 350px; padding: 25px 10px 0px 25px ;}
+#rojo[type = 'range']{ cursor: pointer;}
+#verde[type = 'range']{ cursor: pointer}
+#azul[type = 'range']{ cursor: pointer}
+#trans[type = 'range']{ cursor: pointer}
+#range{float:left;}
+#range_value{float:left;}

@@ -1,0 +1,26 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro Fotografia</title>
+    <link rel="stylesheet" href="filtro_stilo.css">
+    <script src="filtro.js"></script>
+  </head>
+  <body onload="main();">
+    <div class="total">
+      <div class="fotos">
+        <p id="titulo1">Original Image</p>
+        <img src="black-hole.jpg" id="imagenhole1">
+        <p id="titulo2">Manipulated Image</p>
+        <canvas id="display"></canvas><br>
+      </div>
+      <div class="modulador">
+        <input type="range" id="rojo" min="0" max="255" value="255"/> RED<br>
+        <input type="range" id="verde" min="0" max="255" value="255"/> GREEN<br>
+        <input type="range" id="azul" min="0" max="255" value="255"/> BLUE<br>
+        <input type="range" id="trans" min="0" max="255" value="255"/> CLARITY<br>
+        <p id="range">Range value: </p>
+        <p id="range_value"> 00</p>
+      </div>
+    </div>
+  </body>
+</html>
